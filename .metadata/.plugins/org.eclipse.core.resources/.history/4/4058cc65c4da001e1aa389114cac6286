@@ -1,0 +1,54 @@
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<%!
+	String url="jdbc:orcale:thin:@localhost:1521:xe";
+	Connection con=null;
+	Statement stmt=null;
+	rs = pstmt.executeQuaery();
+	String sql = "select * from employee";
+%>
+<title>Insert title here</title>
+</head>
+<body>
+<table width="800" border="1">
+<tr>
+	<th>이름</th><th>주소</th><th>주민번호</th>
+</tr>
+
+<% 	
+	try{
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+		con = DriverManager.getConnection(url,"ezen","1234");
+		 pstmt = con.prepareStatement(sql);
+		rs = stmt.executeQuery(sql);
+		
+		while(rs.next()){
+			out.println("<tr>");
+			out.println("<td>"+("name")+"</td>");
+			out.println("<td>"+("adress")+"</td>");
+			out.println("<td>"+("ssn")+"</td>");
+			out.println("</tr>");
+		}
+	}catch(Exception e){
+		e.printStackTrace();
+	}finally{
+		
+	}try{
+		if(rs != null) rs.close();
+		if(pstmt != null) pstmt.close();
+		if (con != null) con.close();
+	}catch(Exception e){
+		e.printStackTrace();
+	}
+%>
+</table>
+</body>
+</html>

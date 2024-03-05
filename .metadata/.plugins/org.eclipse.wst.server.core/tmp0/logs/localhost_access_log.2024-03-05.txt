@@ -1,0 +1,11 @@
+127.0.0.1 - - [05/Mar/2024:10:43:35 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:10:43:38 +0900] "GET /web-study-07/14_movieList.jsp HTTP/1.1" 200 218
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:10:43:38 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:11:04:46 +0900] "GET /web-study-07/16_movieList.jsp HTTP/1.1" 500 2575
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:11:05:48 +0900] "GET /web-study-07/16_movieList.jsp HTTP/1.1" 500 3121
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:11:06:14 +0900] "GET /web-study-07/16_movieList.jsp HTTP/1.1" 200 420
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:11:15:40 +0900] "GET /web-study-07/18_checkbox.jsp HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:11:15:49 +0900] "GET /web-study-07/17_checkbox.jsp HTTP/1.1" 200 773
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:11:20:19 +0900] "GET /web-study-07/17_paramValues.jsp?item=%EC%8B%A0%EB%B0%9C&item=%EA%B0%80%EB%B0%A9&item=%EB%B2%A8%ED%8A%B8&item=%EC%A5%AC%EC%96%BC%EB%A6%AC HTTP/1.1" 500 4186
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:11:20:28 +0900] "GET /web-study-07/17_paramValues.jsp HTTP/1.1" 500 4186
+0:0:0:0:0:0:0:1 - - [05/Mar/2024:11:21:06 +0900] "GET /web-study-07/17_paramValues.jsp?item=%EC%8B%A0%EB%B0%9C&item=%EA%B0%80%EB%B0%A9&item=%EB%B2%A8%ED%8A%B8&item=%EC%A5%AC%EC%96%BC%EB%A6%AC HTTP/1.1" 200 176
