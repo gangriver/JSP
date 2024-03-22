@@ -9,6 +9,9 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\java\jsp\gitshop"/>
+			<item value="C:\java\jsp\jsp-hyukshop-master"/>
+			<item value="C:\java\jsp\web-study-11"/>
 			<item value="C:\java\jsp\jsp-study-10"/>
 			<item value="C:\java\jsp\jsp-study-09"/>
 			<item value="C:\java\jsp\web-study-10"/>

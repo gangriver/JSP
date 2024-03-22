@@ -13,13 +13,14 @@
 <body>
 	<%
 	
-	Context initContext = new InitialContext();
-	Context envContext  = (Context)initContext.lookup("java:/comp/env");
-	DataSource ds = (DataSource)envContext.lookup("jdbc/myoracle");
-	Connection conn = ds.getConnection();
-	
-	out.println("conn: " + conn);
-	out.println("DB연결 성공");
+		Context initContext = new InitialContext();
+		Context envContext  = (Context)initContext.lookup("java:/comp/env");
+		DataSource ds = (DataSource)envContext.lookup("jdbc/myoracle");
+		Connection conn = ds.getConnection();
+		
+		out.println("conn : " + conn);
+		out.println("DB연결 성공");
+		
 	%>
 </body>
 </html>

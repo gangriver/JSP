@@ -34,3 +34,5 @@ public class BoardVO {
 	private Timestamp writeDate;
 	
 }
+
+

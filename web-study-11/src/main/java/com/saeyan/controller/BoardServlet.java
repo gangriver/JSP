@@ -15,7 +15,7 @@ public class BoardServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     
 	
-	//BoardServlet?command=board_list => 요청이 전달됨
+	//board_write
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String command = request.getParameter("command");

@@ -161,8 +161,6 @@ public class BoardDAO {
 		return vo;
 	}
 	
-	
-	
 	public void insertBoard(BoardVO vo) {
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -257,3 +255,31 @@ public class BoardDAO {
 	
 	
 }
+
+
+/*
+ * 				vo.setBoardKey(rs.getInt("boardkey"));
+				vo.setContent(rs.getString("content"));
+				vo.setNickname(rs.getString("nickname"));
+				vo.setProductKey(rs.getInt("productkey"));
+				vo.setUserKey(rs.getInt("userkey"));
+				vo.setAdminKey(rs.getInt("adminkey"));
+				vo.setUserKey2(rs.getInt("userkey2"));
+				vo.setAdminKey2(rs.getInt("adminkey2"));				
+				vo.setWriteDate(rs.getTimestamp("writedate"));
+				
+				pstmt.setString(1, vo.getName());
+			pstmt.setString(2, vo.getPass());
+			pstmt.setString(3, vo.getEmail());
+			pstmt.setString(4, vo.getTitle());
+			pstmt.setString(5, vo.getContent());
+			pstmt.setInt(6, vo.getNum());
+ */
+
+
+
+
+
+
+
+

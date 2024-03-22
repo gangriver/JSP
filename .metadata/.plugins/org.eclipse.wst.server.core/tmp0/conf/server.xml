@@ -104,12 +104,16 @@
 					Note: The pattern used is equivalent to using pattern="common" -->
 				<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-				<Context docBase="C:\java\jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\java\jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web-study-11" path="/web-study-11" reloadable="true" source="org.eclipse.jst.jee.server:web-study-11">
+				
 					
-					<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="1234" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:xe" username="ezen"/>
-              </Context>
-					
-			</Host>
+			
+			
+			
+			<Context docBase="C:\java\jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\java\jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\jsp-hyukshop-master" path="/shop" reloadable="true" source="org.eclipse.jst.jee.server:jsp-hyukshop-master">
+
+	<Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/shopDB" password="shop0805" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/shopdb?serverTimezone=Asia/Seoul" username="shopuser"/>
+
+</Context></Host>
 		</Engine>
 	</Service>
 </Server>
