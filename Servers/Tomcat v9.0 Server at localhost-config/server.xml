@@ -109,7 +109,7 @@
 			
 			
 			
-			</Host>
+			<Context docBase="LastShoppingMall" path="/" reloadable="true" source="org.eclipse.jst.jee.server:LastShoppingMall"/></Host>
 		</Engine>
 	</Service>
 </Server>

@@ -9,6 +9,12 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\java\jsp\BubbleGame"/>
+			<item value="C:\java\jsp\shoppingmall-main"/>
+			<item value="C:\java\jsp\박찬호_Project"/>
+			<item value="C:\java\jsp\프로젝트_쇼핑몰"/>
+			<item value="C:\java\jsp\Shopping_download"/>
+			<item value="C:\java\jsp\shopping"/>
 			<item value="C:\java\jsp\gitshop"/>
 			<item value="C:\java\jsp\jsp-hyukshop-master"/>
 			<item value="C:\java\jsp\web-study-11"/>

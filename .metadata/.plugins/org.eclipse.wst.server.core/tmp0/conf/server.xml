@@ -109,11 +109,7 @@
 			
 			
 			
-			<Context docBase="C:\java\jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\java\jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\jsp-hyukshop-master" path="/shop" reloadable="true" source="org.eclipse.jst.jee.server:jsp-hyukshop-master">
-
-	<Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/shopDB" password="shop0805" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/shopdb?serverTimezone=Asia/Seoul" username="shopuser"/>
-
-</Context></Host>
+			<Context docBase="C:\java\jsp\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\LastShoppingMall" path="" reloadable="true" source="org.eclipse.jst.jee.server:LastShoppingMall"/></Host>
 		</Engine>
 	</Service>
 </Server>
